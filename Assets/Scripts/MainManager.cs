@@ -55,6 +55,8 @@ public class MainManager : MonoBehaviour
         }
         else if (m_GameOver)
         {
+            //Check if score is greater then high the score
+            //Save if it was greater
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
